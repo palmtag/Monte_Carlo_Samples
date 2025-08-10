@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="800">
+  <title>PWR Assembly</title>
+  <desc>Assembly Description</desc>
+  <rect x="0" y="0" width="800" height="800" fill="royalblue" stroke-width="0" />
+  <circle cx="136" cy="136" r="99" fill="gray" />
+  <circle cx="136" cy="136" r="88" fill="tomato" />
+  <circle cx="136" cy="136" r="86" fill="yellow" />
+  <circle cx="400" cy="136" r="99" fill="gray" />
+  <circle cx="400" cy="136" r="88" fill="tomato" />
+  <circle cx="400" cy="136" r="86" fill="yellow" />
+  <circle cx="664" cy="136" r="99" fill="gray" />
+  <circle cx="664" cy="136" r="88" fill="tomato" />
+  <circle cx="664" cy="136" r="86" fill="yellow" />
+  <circle cx="136" cy="400" r="99" fill="gray" />
+  <circle cx="136" cy="400" r="88" fill="tomato" />
+  <circle cx="136" cy="400" r="86" fill="yellow" />
+  <circle cx="400" cy="400" r="99" fill="gray" />
+  <circle cx="400" cy="400" r="88" fill="tomato" />
+  <circle cx="400" cy="400" r="86" fill="green" />
+  <circle cx="664" cy="400" r="99" fill="gray" />
+  <circle cx="664" cy="400" r="88" fill="tomato" />
+  <circle cx="664" cy="400" r="86" fill="yellow" />
+  <circle cx="136" cy="664" r="99" fill="gray" />
+  <circle cx="136" cy="664" r="88" fill="tomato" />
+  <circle cx="136" cy="664" r="86" fill="yellow" />
+  <circle cx="400" cy="664" r="99" fill="gray" />
+  <circle cx="400" cy="664" r="88" fill="tomato" />
+  <circle cx="400" cy="664" r="86" fill="yellow" />
+  <circle cx="664" cy="664" r="99" fill="gray" />
+  <circle cx="664" cy="664" r="88" fill="tomato" />
+  <circle cx="664" cy="664" r="86" fill="yellow" />
+</svg>

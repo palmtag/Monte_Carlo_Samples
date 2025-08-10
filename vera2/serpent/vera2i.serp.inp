@@ -1,0 +1,1197 @@
+set title "PWR Assembly"
+% 
+% Serpent Input created by BUNBLD on 08/09/2025 11:48:06
+% 
+% VERA Benchmark #2 - Single Assembly
+% Uniform PWR Assembly
+% November 15, 2012
+% Number densities from KENO run
+% VERA Benchmark 2I - Like 2A + instrument thimble
+% 
+% NPIN  17
+% 
+% PINMAP
+%  3  1  1  2  1  1  2  1  1  
+%  1  1  1  1  1  1  1  1  1  
+%  1  1  1  1  1  1  1  1  1  
+%  2  1  1  2  1  1  2  1  1  
+%  1  1  1  1  1  1  1  1  1  
+%  1  1  1  1  1  2  1  1  1  
+%  2  1  1  2  1  1  1  1  1  
+%  1  1  1  1  1  1  1  1  1  
+%  1  1  1  1  1  1  1  1  1  
+% 
+% FUEMAP
+%  0  1  1  0  1  1  0  1  1
+%  1  1  1  1  1  1  1  1  1
+%  1  1  1  1  1  1  1  1  1
+%  0  1  1  0  1  1  0  1  1
+%  1  1  1  1  1  1  1  1  1
+%  1  1  1  1  1  0  1  1  1
+%  0  1  1  0  1  1  1  1  1
+%  1  1  1  1  1  1  1  1  1
+%  1  1  1  1  1  1  1  1  1
+% 
+%
+% ------------- Cell Cards ----------------------
+%
+%   pin number 1   type 3   ( 9, 9)
+cell      1 0 m5  -23  -13    3                         % AIR
+cell      2 0 m6   23  -24  -13    3                    % SS304
+cell      3 0 m4   24  -25  -13    3                    % MOD
+cell      4 0 m2   25  -26  -13    3                    % CLAD
+cell      5 0 m3   26    3   -4   14  -13               % COOL
+%
+%   pin number 2   type 1   (10, 9)
+cell      6 0 m1  -27  -13                              % FUEL01
+cell      7 0 m5   27  -28  -13                         % AIR
+cell      8 0 m2   28  -29  -13                         % CLAD
+cell      9 0 m3   29    4   -5   14  -13               % COOL
+%
+%   pin number 3   type 1   (11, 9)
+cell     10 0 m1  -30  -13                              % FUEL01
+cell     11 0 m5   30  -31  -13                         % AIR
+cell     12 0 m2   31  -32  -13                         % CLAD
+cell     13 0 m3   32    5   -6   14  -13               % COOL
+%
+%   pin number 4   type 2   (12, 9)
+cell     14 0 m4  -33  -13                              % MOD
+cell     15 0 m2   33  -34  -13                         % CLAD
+cell     16 0 m3   34    6   -7   14  -13               % COOL
+%
+%   pin number 5   type 1   (13, 9)
+cell     17 0 m1  -35  -13                              % FUEL01
+cell     18 0 m5   35  -36  -13                         % AIR
+cell     19 0 m2   36  -37  -13                         % CLAD
+cell     20 0 m3   37    7   -8   14  -13               % COOL
+%
+%   pin number 6   type 1   (14, 9)
+cell     21 0 m1  -38  -13                              % FUEL01
+cell     22 0 m5   38  -39  -13                         % AIR
+cell     23 0 m2   39  -40  -13                         % CLAD
+cell     24 0 m3   40    8   -9   14  -13               % COOL
+%
+%   pin number 7   type 2   (15, 9)
+cell     25 0 m4  -41  -13                              % MOD
+cell     26 0 m2   41  -42  -13                         % CLAD
+cell     27 0 m3   42    9  -10   14  -13               % COOL
+%
+%   pin number 8   type 1   (16, 9)
+cell     28 0 m1  -43  -13                              % FUEL01
+cell     29 0 m5   43  -44  -13                         % AIR
+cell     30 0 m2   44  -45  -13                         % CLAD
+cell     31 0 m3   45   10  -11   14  -13               % COOL
+%
+%   pin number 9   type 1   (17, 9)
+cell     32 0 m1  -46  -13                              % FUEL01
+cell     33 0 m5   46  -47  -13                         % AIR
+cell     34 0 m2   47  -48  -13                         % CLAD
+cell     35 0 m3   48   11  -12   14  -13               % COOL
+%
+%   pin number 10   type 1   ( 9,10)
+cell     36 0 m1  -49    3                              % FUEL01
+cell     37 0 m5   49  -50    3                         % AIR
+cell     38 0 m2   50  -51    3                         % CLAD
+cell     39 0 m3   51    3   -4   15  -14               % COOL
+%
+%   pin number 11   type 1   (10,10)
+cell     40 0 m1  -52                                   % FUEL01
+cell     41 0 m5   52  -53                              % AIR
+cell     42 0 m2   53  -54                              % CLAD
+cell     43 0 m3   54    4   -5   15  -14               % COOL
+%
+%   pin number 12   type 1   (11,10)
+cell     44 0 m1  -55                                   % FUEL01
+cell     45 0 m5   55  -56                              % AIR
+cell     46 0 m2   56  -57                              % CLAD
+cell     47 0 m3   57    5   -6   15  -14               % COOL
+%
+%   pin number 13   type 1   (12,10)
+cell     48 0 m1  -58                                   % FUEL01
+cell     49 0 m5   58  -59                              % AIR
+cell     50 0 m2   59  -60                              % CLAD
+cell     51 0 m3   60    6   -7   15  -14               % COOL
+%
+%   pin number 14   type 1   (13,10)
+cell     52 0 m1  -61                                   % FUEL01
+cell     53 0 m5   61  -62                              % AIR
+cell     54 0 m2   62  -63                              % CLAD
+cell     55 0 m3   63    7   -8   15  -14               % COOL
+%
+%   pin number 15   type 1   (14,10)
+cell     56 0 m1  -64                                   % FUEL01
+cell     57 0 m5   64  -65                              % AIR
+cell     58 0 m2   65  -66                              % CLAD
+cell     59 0 m3   66    8   -9   15  -14               % COOL
+%
+%   pin number 16   type 1   (15,10)
+cell     60 0 m1  -67                                   % FUEL01
+cell     61 0 m5   67  -68                              % AIR
+cell     62 0 m2   68  -69                              % CLAD
+cell     63 0 m3   69    9  -10   15  -14               % COOL
+%
+%   pin number 17   type 1   (16,10)
+cell     64 0 m1  -70                                   % FUEL01
+cell     65 0 m5   70  -71                              % AIR
+cell     66 0 m2   71  -72                              % CLAD
+cell     67 0 m3   72   10  -11   15  -14               % COOL
+%
+%   pin number 18   type 1   (17,10)
+cell     68 0 m1  -73                                   % FUEL01
+cell     69 0 m5   73  -74                              % AIR
+cell     70 0 m2   74  -75                              % CLAD
+cell     71 0 m3   75   11  -12   15  -14               % COOL
+%
+%   pin number 19   type 1   ( 9,11)
+cell     72 0 m1  -76    3                              % FUEL01
+cell     73 0 m5   76  -77    3                         % AIR
+cell     74 0 m2   77  -78    3                         % CLAD
+cell     75 0 m3   78    3   -4   16  -15               % COOL
+%
+%   pin number 20   type 1   (10,11)
+cell     76 0 m1  -79                                   % FUEL01
+cell     77 0 m5   79  -80                              % AIR
+cell     78 0 m2   80  -81                              % CLAD
+cell     79 0 m3   81    4   -5   16  -15               % COOL
+%
+%   pin number 21   type 1   (11,11)
+cell     80 0 m1  -82                                   % FUEL01
+cell     81 0 m5   82  -83                              % AIR
+cell     82 0 m2   83  -84                              % CLAD
+cell     83 0 m3   84    5   -6   16  -15               % COOL
+%
+%   pin number 22   type 1   (12,11)
+cell     84 0 m1  -85                                   % FUEL01
+cell     85 0 m5   85  -86                              % AIR
+cell     86 0 m2   86  -87                              % CLAD
+cell     87 0 m3   87    6   -7   16  -15               % COOL
+%
+%   pin number 23   type 1   (13,11)
+cell     88 0 m1  -88                                   % FUEL01
+cell     89 0 m5   88  -89                              % AIR
+cell     90 0 m2   89  -90                              % CLAD
+cell     91 0 m3   90    7   -8   16  -15               % COOL
+%
+%   pin number 24   type 1   (14,11)
+cell     92 0 m1  -91                                   % FUEL01
+cell     93 0 m5   91  -92                              % AIR
+cell     94 0 m2   92  -93                              % CLAD
+cell     95 0 m3   93    8   -9   16  -15               % COOL
+%
+%   pin number 25   type 1   (15,11)
+cell     96 0 m1  -94                                   % FUEL01
+cell     97 0 m5   94  -95                              % AIR
+cell     98 0 m2   95  -96                              % CLAD
+cell     99 0 m3   96    9  -10   16  -15               % COOL
+%
+%   pin number 26   type 1   (16,11)
+cell    100 0 m1  -97                                   % FUEL01
+cell    101 0 m5   97  -98                              % AIR
+cell    102 0 m2   98  -99                              % CLAD
+cell    103 0 m3   99   10  -11   16  -15               % COOL
+%
+%   pin number 27   type 1   (17,11)
+cell    104 0 m1 -100                                   % FUEL01
+cell    105 0 m5  100 -101                              % AIR
+cell    106 0 m2  101 -102                              % CLAD
+cell    107 0 m3  102   11  -12   16  -15               % COOL
+%
+%   pin number 28   type 2   ( 9,12)
+cell    108 0 m4 -103    3                              % MOD
+cell    109 0 m2  103 -104    3                         % CLAD
+cell    110 0 m3  104    3   -4   17  -16               % COOL
+%
+%   pin number 29   type 1   (10,12)
+cell    111 0 m1 -105                                   % FUEL01
+cell    112 0 m5  105 -106                              % AIR
+cell    113 0 m2  106 -107                              % CLAD
+cell    114 0 m3  107    4   -5   17  -16               % COOL
+%
+%   pin number 30   type 1   (11,12)
+cell    115 0 m1 -108                                   % FUEL01
+cell    116 0 m5  108 -109                              % AIR
+cell    117 0 m2  109 -110                              % CLAD
+cell    118 0 m3  110    5   -6   17  -16               % COOL
+%
+%   pin number 31   type 2   (12,12)
+cell    119 0 m4 -111                                   % MOD
+cell    120 0 m2  111 -112                              % CLAD
+cell    121 0 m3  112    6   -7   17  -16               % COOL
+%
+%   pin number 32   type 1   (13,12)
+cell    122 0 m1 -113                                   % FUEL01
+cell    123 0 m5  113 -114                              % AIR
+cell    124 0 m2  114 -115                              % CLAD
+cell    125 0 m3  115    7   -8   17  -16               % COOL
+%
+%   pin number 33   type 1   (14,12)
+cell    126 0 m1 -116                                   % FUEL01
+cell    127 0 m5  116 -117                              % AIR
+cell    128 0 m2  117 -118                              % CLAD
+cell    129 0 m3  118    8   -9   17  -16               % COOL
+%
+%   pin number 34   type 2   (15,12)
+cell    130 0 m4 -119                                   % MOD
+cell    131 0 m2  119 -120                              % CLAD
+cell    132 0 m3  120    9  -10   17  -16               % COOL
+%
+%   pin number 35   type 1   (16,12)
+cell    133 0 m1 -121                                   % FUEL01
+cell    134 0 m5  121 -122                              % AIR
+cell    135 0 m2  122 -123                              % CLAD
+cell    136 0 m3  123   10  -11   17  -16               % COOL
+%
+%   pin number 36   type 1   (17,12)
+cell    137 0 m1 -124                                   % FUEL01
+cell    138 0 m5  124 -125                              % AIR
+cell    139 0 m2  125 -126                              % CLAD
+cell    140 0 m3  126   11  -12   17  -16               % COOL
+%
+%   pin number 37   type 1   ( 9,13)
+cell    141 0 m1 -127    3                              % FUEL01
+cell    142 0 m5  127 -128    3                         % AIR
+cell    143 0 m2  128 -129    3                         % CLAD
+cell    144 0 m3  129    3   -4   18  -17               % COOL
+%
+%   pin number 38   type 1   (10,13)
+cell    145 0 m1 -130                                   % FUEL01
+cell    146 0 m5  130 -131                              % AIR
+cell    147 0 m2  131 -132                              % CLAD
+cell    148 0 m3  132    4   -5   18  -17               % COOL
+%
+%   pin number 39   type 1   (11,13)
+cell    149 0 m1 -133                                   % FUEL01
+cell    150 0 m5  133 -134                              % AIR
+cell    151 0 m2  134 -135                              % CLAD
+cell    152 0 m3  135    5   -6   18  -17               % COOL
+%
+%   pin number 40   type 1   (12,13)
+cell    153 0 m1 -136                                   % FUEL01
+cell    154 0 m5  136 -137                              % AIR
+cell    155 0 m2  137 -138                              % CLAD
+cell    156 0 m3  138    6   -7   18  -17               % COOL
+%
+%   pin number 41   type 1   (13,13)
+cell    157 0 m1 -139                                   % FUEL01
+cell    158 0 m5  139 -140                              % AIR
+cell    159 0 m2  140 -141                              % CLAD
+cell    160 0 m3  141    7   -8   18  -17               % COOL
+%
+%   pin number 42   type 1   (14,13)
+cell    161 0 m1 -142                                   % FUEL01
+cell    162 0 m5  142 -143                              % AIR
+cell    163 0 m2  143 -144                              % CLAD
+cell    164 0 m3  144    8   -9   18  -17               % COOL
+%
+%   pin number 43   type 1   (15,13)
+cell    165 0 m1 -145                                   % FUEL01
+cell    166 0 m5  145 -146                              % AIR
+cell    167 0 m2  146 -147                              % CLAD
+cell    168 0 m3  147    9  -10   18  -17               % COOL
+%
+%   pin number 44   type 1   (16,13)
+cell    169 0 m1 -148                                   % FUEL01
+cell    170 0 m5  148 -149                              % AIR
+cell    171 0 m2  149 -150                              % CLAD
+cell    172 0 m3  150   10  -11   18  -17               % COOL
+%
+%   pin number 45   type 1   (17,13)
+cell    173 0 m1 -151                                   % FUEL01
+cell    174 0 m5  151 -152                              % AIR
+cell    175 0 m2  152 -153                              % CLAD
+cell    176 0 m3  153   11  -12   18  -17               % COOL
+%
+%   pin number 46   type 1   ( 9,14)
+cell    177 0 m1 -154    3                              % FUEL01
+cell    178 0 m5  154 -155    3                         % AIR
+cell    179 0 m2  155 -156    3                         % CLAD
+cell    180 0 m3  156    3   -4   19  -18               % COOL
+%
+%   pin number 47   type 1   (10,14)
+cell    181 0 m1 -157                                   % FUEL01
+cell    182 0 m5  157 -158                              % AIR
+cell    183 0 m2  158 -159                              % CLAD
+cell    184 0 m3  159    4   -5   19  -18               % COOL
+%
+%   pin number 48   type 1   (11,14)
+cell    185 0 m1 -160                                   % FUEL01
+cell    186 0 m5  160 -161                              % AIR
+cell    187 0 m2  161 -162                              % CLAD
+cell    188 0 m3  162    5   -6   19  -18               % COOL
+%
+%   pin number 49   type 1   (12,14)
+cell    189 0 m1 -163                                   % FUEL01
+cell    190 0 m5  163 -164                              % AIR
+cell    191 0 m2  164 -165                              % CLAD
+cell    192 0 m3  165    6   -7   19  -18               % COOL
+%
+%   pin number 50   type 1   (13,14)
+cell    193 0 m1 -166                                   % FUEL01
+cell    194 0 m5  166 -167                              % AIR
+cell    195 0 m2  167 -168                              % CLAD
+cell    196 0 m3  168    7   -8   19  -18               % COOL
+%
+%   pin number 51   type 2   (14,14)
+cell    197 0 m4 -169                                   % MOD
+cell    198 0 m2  169 -170                              % CLAD
+cell    199 0 m3  170    8   -9   19  -18               % COOL
+%
+%   pin number 52   type 1   (15,14)
+cell    200 0 m1 -171                                   % FUEL01
+cell    201 0 m5  171 -172                              % AIR
+cell    202 0 m2  172 -173                              % CLAD
+cell    203 0 m3  173    9  -10   19  -18               % COOL
+%
+%   pin number 53   type 1   (16,14)
+cell    204 0 m1 -174                                   % FUEL01
+cell    205 0 m5  174 -175                              % AIR
+cell    206 0 m2  175 -176                              % CLAD
+cell    207 0 m3  176   10  -11   19  -18               % COOL
+%
+%   pin number 54   type 1   (17,14)
+cell    208 0 m1 -177                                   % FUEL01
+cell    209 0 m5  177 -178                              % AIR
+cell    210 0 m2  178 -179                              % CLAD
+cell    211 0 m3  179   11  -12   19  -18               % COOL
+%
+%   pin number 55   type 2   ( 9,15)
+cell    212 0 m4 -180    3                              % MOD
+cell    213 0 m2  180 -181    3                         % CLAD
+cell    214 0 m3  181    3   -4   20  -19               % COOL
+%
+%   pin number 56   type 1   (10,15)
+cell    215 0 m1 -182                                   % FUEL01
+cell    216 0 m5  182 -183                              % AIR
+cell    217 0 m2  183 -184                              % CLAD
+cell    218 0 m3  184    4   -5   20  -19               % COOL
+%
+%   pin number 57   type 1   (11,15)
+cell    219 0 m1 -185                                   % FUEL01
+cell    220 0 m5  185 -186                              % AIR
+cell    221 0 m2  186 -187                              % CLAD
+cell    222 0 m3  187    5   -6   20  -19               % COOL
+%
+%   pin number 58   type 2   (12,15)
+cell    223 0 m4 -188                                   % MOD
+cell    224 0 m2  188 -189                              % CLAD
+cell    225 0 m3  189    6   -7   20  -19               % COOL
+%
+%   pin number 59   type 1   (13,15)
+cell    226 0 m1 -190                                   % FUEL01
+cell    227 0 m5  190 -191                              % AIR
+cell    228 0 m2  191 -192                              % CLAD
+cell    229 0 m3  192    7   -8   20  -19               % COOL
+%
+%   pin number 60   type 1   (14,15)
+cell    230 0 m1 -193                                   % FUEL01
+cell    231 0 m5  193 -194                              % AIR
+cell    232 0 m2  194 -195                              % CLAD
+cell    233 0 m3  195    8   -9   20  -19               % COOL
+%
+%   pin number 61   type 1   (15,15)
+cell    234 0 m1 -196                                   % FUEL01
+cell    235 0 m5  196 -197                              % AIR
+cell    236 0 m2  197 -198                              % CLAD
+cell    237 0 m3  198    9  -10   20  -19               % COOL
+%
+%   pin number 62   type 1   (16,15)
+cell    238 0 m1 -199                                   % FUEL01
+cell    239 0 m5  199 -200                              % AIR
+cell    240 0 m2  200 -201                              % CLAD
+cell    241 0 m3  201   10  -11   20  -19               % COOL
+%
+%   pin number 63   type 1   (17,15)
+cell    242 0 m1 -202                                   % FUEL01
+cell    243 0 m5  202 -203                              % AIR
+cell    244 0 m2  203 -204                              % CLAD
+cell    245 0 m3  204   11  -12   20  -19               % COOL
+%
+%   pin number 64   type 1   ( 9,16)
+cell    246 0 m1 -205    3                              % FUEL01
+cell    247 0 m5  205 -206    3                         % AIR
+cell    248 0 m2  206 -207    3                         % CLAD
+cell    249 0 m3  207    3   -4   21  -20               % COOL
+%
+%   pin number 65   type 1   (10,16)
+cell    250 0 m1 -208                                   % FUEL01
+cell    251 0 m5  208 -209                              % AIR
+cell    252 0 m2  209 -210                              % CLAD
+cell    253 0 m3  210    4   -5   21  -20               % COOL
+%
+%   pin number 66   type 1   (11,16)
+cell    254 0 m1 -211                                   % FUEL01
+cell    255 0 m5  211 -212                              % AIR
+cell    256 0 m2  212 -213                              % CLAD
+cell    257 0 m3  213    5   -6   21  -20               % COOL
+%
+%   pin number 67   type 1   (12,16)
+cell    258 0 m1 -214                                   % FUEL01
+cell    259 0 m5  214 -215                              % AIR
+cell    260 0 m2  215 -216                              % CLAD
+cell    261 0 m3  216    6   -7   21  -20               % COOL
+%
+%   pin number 68   type 1   (13,16)
+cell    262 0 m1 -217                                   % FUEL01
+cell    263 0 m5  217 -218                              % AIR
+cell    264 0 m2  218 -219                              % CLAD
+cell    265 0 m3  219    7   -8   21  -20               % COOL
+%
+%   pin number 69   type 1   (14,16)
+cell    266 0 m1 -220                                   % FUEL01
+cell    267 0 m5  220 -221                              % AIR
+cell    268 0 m2  221 -222                              % CLAD
+cell    269 0 m3  222    8   -9   21  -20               % COOL
+%
+%   pin number 70   type 1   (15,16)
+cell    270 0 m1 -223                                   % FUEL01
+cell    271 0 m5  223 -224                              % AIR
+cell    272 0 m2  224 -225                              % CLAD
+cell    273 0 m3  225    9  -10   21  -20               % COOL
+%
+%   pin number 71   type 1   (16,16)
+cell    274 0 m1 -226                                   % FUEL01
+cell    275 0 m5  226 -227                              % AIR
+cell    276 0 m2  227 -228                              % CLAD
+cell    277 0 m3  228   10  -11   21  -20               % COOL
+%
+%   pin number 72   type 1   (17,16)
+cell    278 0 m1 -229                                   % FUEL01
+cell    279 0 m5  229 -230                              % AIR
+cell    280 0 m2  230 -231                              % CLAD
+cell    281 0 m3  231   11  -12   21  -20               % COOL
+%
+%   pin number 73   type 1   ( 9,17)
+cell    282 0 m1 -232    3                              % FUEL01
+cell    283 0 m5  232 -233    3                         % AIR
+cell    284 0 m2  233 -234    3                         % CLAD
+cell    285 0 m3  234    3   -4   22  -21               % COOL
+%
+%   pin number 74   type 1   (10,17)
+cell    286 0 m1 -235                                   % FUEL01
+cell    287 0 m5  235 -236                              % AIR
+cell    288 0 m2  236 -237                              % CLAD
+cell    289 0 m3  237    4   -5   22  -21               % COOL
+%
+%   pin number 75   type 1   (11,17)
+cell    290 0 m1 -238                                   % FUEL01
+cell    291 0 m5  238 -239                              % AIR
+cell    292 0 m2  239 -240                              % CLAD
+cell    293 0 m3  240    5   -6   22  -21               % COOL
+%
+%   pin number 76   type 1   (12,17)
+cell    294 0 m1 -241                                   % FUEL01
+cell    295 0 m5  241 -242                              % AIR
+cell    296 0 m2  242 -243                              % CLAD
+cell    297 0 m3  243    6   -7   22  -21               % COOL
+%
+%   pin number 77   type 1   (13,17)
+cell    298 0 m1 -244                                   % FUEL01
+cell    299 0 m5  244 -245                              % AIR
+cell    300 0 m2  245 -246                              % CLAD
+cell    301 0 m3  246    7   -8   22  -21               % COOL
+%
+%   pin number 78   type 1   (14,17)
+cell    302 0 m1 -247                                   % FUEL01
+cell    303 0 m5  247 -248                              % AIR
+cell    304 0 m2  248 -249                              % CLAD
+cell    305 0 m3  249    8   -9   22  -21               % COOL
+%
+%   pin number 79   type 1   (15,17)
+cell    306 0 m1 -250                                   % FUEL01
+cell    307 0 m5  250 -251                              % AIR
+cell    308 0 m2  251 -252                              % CLAD
+cell    309 0 m3  252    9  -10   22  -21               % COOL
+%
+%   pin number 80   type 1   (16,17)
+cell    310 0 m1 -253                                   % FUEL01
+cell    311 0 m5  253 -254                              % AIR
+cell    312 0 m2  254 -255                              % CLAD
+cell    313 0 m3  255   10  -11   22  -21               % COOL
+%
+%   pin number 81   type 1   (17,17)
+cell    314 0 m1 -256                                   % FUEL01
+cell    315 0 m5  256 -257                              % AIR
+cell    316 0 m2  257 -258                              % CLAD
+cell    317 0 m3  258   11  -12   22  -21               % COOL
+%  outside world
+cell 318 0 outside 1
+%
+% ------------- Surface Cards -------------------
+%
+surf 1 rect 0.0   10.75000 0.0   10.75000   % outer boundary
+surf    3 px   0.00000
+surf    4 px   0.63000
+surf    5 px   1.89000
+surf    6 px   3.15000
+surf    7 px   4.41000
+surf    8 px   5.67000
+surf    9 px   6.93000
+surf   10 px   8.19000
+surf   11 px   9.45000
+surf   12 px  10.75000
+surf   13 py  10.75000
+surf   14 py  10.12000
+surf   15 py   8.86000
+surf   16 py   7.60000
+surf   17 py   6.34000
+surf   18 py   5.08000
+surf   19 py   3.82000
+surf   20 py   2.56000
+surf   21 py   1.30000
+surf   22 py   0.00000
+%   pin number   1   type 3   ( 9, 9)
+surf   23 cyl   0.00000  10.75000   0.25800 % AIR
+surf   24 cyl   0.00000  10.75000   0.38200 % SS304
+surf   25 cyl   0.00000  10.75000   0.55900 % MOD
+surf   26 cyl   0.00000  10.75000   0.60500 % CLAD
+%   pin number   2   type 1   (10, 9)
+surf   27 cyl   1.26000  10.75000   0.40960 % FUEL
+surf   28 cyl   1.26000  10.75000   0.41800 % AIR
+surf   29 cyl   1.26000  10.75000   0.47500 % CLAD
+%   pin number   3   type 1   (11, 9)
+surf   30 cyl   2.52000  10.75000   0.40960 % FUEL
+surf   31 cyl   2.52000  10.75000   0.41800 % AIR
+surf   32 cyl   2.52000  10.75000   0.47500 % CLAD
+%   pin number   4   type 2   (12, 9)
+surf   33 cyl   3.78000  10.75000   0.56100 % MOD
+surf   34 cyl   3.78000  10.75000   0.60200 % CLAD
+%   pin number   5   type 1   (13, 9)
+surf   35 cyl   5.04000  10.75000   0.40960 % FUEL
+surf   36 cyl   5.04000  10.75000   0.41800 % AIR
+surf   37 cyl   5.04000  10.75000   0.47500 % CLAD
+%   pin number   6   type 1   (14, 9)
+surf   38 cyl   6.30000  10.75000   0.40960 % FUEL
+surf   39 cyl   6.30000  10.75000   0.41800 % AIR
+surf   40 cyl   6.30000  10.75000   0.47500 % CLAD
+%   pin number   7   type 2   (15, 9)
+surf   41 cyl   7.56000  10.75000   0.56100 % MOD
+surf   42 cyl   7.56000  10.75000   0.60200 % CLAD
+%   pin number   8   type 1   (16, 9)
+surf   43 cyl   8.82000  10.75000   0.40960 % FUEL
+surf   44 cyl   8.82000  10.75000   0.41800 % AIR
+surf   45 cyl   8.82000  10.75000   0.47500 % CLAD
+%   pin number   9   type 1   (17, 9)
+surf   46 cyl  10.08000  10.75000   0.40960 % FUEL
+surf   47 cyl  10.08000  10.75000   0.41800 % AIR
+surf   48 cyl  10.08000  10.75000   0.47500 % CLAD
+%   pin number  10   type 1   ( 9,10)
+surf   49 cyl   0.00000   9.49000   0.40960 % FUEL
+surf   50 cyl   0.00000   9.49000   0.41800 % AIR
+surf   51 cyl   0.00000   9.49000   0.47500 % CLAD
+%   pin number  11   type 1   (10,10)
+surf   52 cyl   1.26000   9.49000   0.40960 % FUEL
+surf   53 cyl   1.26000   9.49000   0.41800 % AIR
+surf   54 cyl   1.26000   9.49000   0.47500 % CLAD
+%   pin number  12   type 1   (11,10)
+surf   55 cyl   2.52000   9.49000   0.40960 % FUEL
+surf   56 cyl   2.52000   9.49000   0.41800 % AIR
+surf   57 cyl   2.52000   9.49000   0.47500 % CLAD
+%   pin number  13   type 1   (12,10)
+surf   58 cyl   3.78000   9.49000   0.40960 % FUEL
+surf   59 cyl   3.78000   9.49000   0.41800 % AIR
+surf   60 cyl   3.78000   9.49000   0.47500 % CLAD
+%   pin number  14   type 1   (13,10)
+surf   61 cyl   5.04000   9.49000   0.40960 % FUEL
+surf   62 cyl   5.04000   9.49000   0.41800 % AIR
+surf   63 cyl   5.04000   9.49000   0.47500 % CLAD
+%   pin number  15   type 1   (14,10)
+surf   64 cyl   6.30000   9.49000   0.40960 % FUEL
+surf   65 cyl   6.30000   9.49000   0.41800 % AIR
+surf   66 cyl   6.30000   9.49000   0.47500 % CLAD
+%   pin number  16   type 1   (15,10)
+surf   67 cyl   7.56000   9.49000   0.40960 % FUEL
+surf   68 cyl   7.56000   9.49000   0.41800 % AIR
+surf   69 cyl   7.56000   9.49000   0.47500 % CLAD
+%   pin number  17   type 1   (16,10)
+surf   70 cyl   8.82000   9.49000   0.40960 % FUEL
+surf   71 cyl   8.82000   9.49000   0.41800 % AIR
+surf   72 cyl   8.82000   9.49000   0.47500 % CLAD
+%   pin number  18   type 1   (17,10)
+surf   73 cyl  10.08000   9.49000   0.40960 % FUEL
+surf   74 cyl  10.08000   9.49000   0.41800 % AIR
+surf   75 cyl  10.08000   9.49000   0.47500 % CLAD
+%   pin number  19   type 1   ( 9,11)
+surf   76 cyl   0.00000   8.23000   0.40960 % FUEL
+surf   77 cyl   0.00000   8.23000   0.41800 % AIR
+surf   78 cyl   0.00000   8.23000   0.47500 % CLAD
+%   pin number  20   type 1   (10,11)
+surf   79 cyl   1.26000   8.23000   0.40960 % FUEL
+surf   80 cyl   1.26000   8.23000   0.41800 % AIR
+surf   81 cyl   1.26000   8.23000   0.47500 % CLAD
+%   pin number  21   type 1   (11,11)
+surf   82 cyl   2.52000   8.23000   0.40960 % FUEL
+surf   83 cyl   2.52000   8.23000   0.41800 % AIR
+surf   84 cyl   2.52000   8.23000   0.47500 % CLAD
+%   pin number  22   type 1   (12,11)
+surf   85 cyl   3.78000   8.23000   0.40960 % FUEL
+surf   86 cyl   3.78000   8.23000   0.41800 % AIR
+surf   87 cyl   3.78000   8.23000   0.47500 % CLAD
+%   pin number  23   type 1   (13,11)
+surf   88 cyl   5.04000   8.23000   0.40960 % FUEL
+surf   89 cyl   5.04000   8.23000   0.41800 % AIR
+surf   90 cyl   5.04000   8.23000   0.47500 % CLAD
+%   pin number  24   type 1   (14,11)
+surf   91 cyl   6.30000   8.23000   0.40960 % FUEL
+surf   92 cyl   6.30000   8.23000   0.41800 % AIR
+surf   93 cyl   6.30000   8.23000   0.47500 % CLAD
+%   pin number  25   type 1   (15,11)
+surf   94 cyl   7.56000   8.23000   0.40960 % FUEL
+surf   95 cyl   7.56000   8.23000   0.41800 % AIR
+surf   96 cyl   7.56000   8.23000   0.47500 % CLAD
+%   pin number  26   type 1   (16,11)
+surf   97 cyl   8.82000   8.23000   0.40960 % FUEL
+surf   98 cyl   8.82000   8.23000   0.41800 % AIR
+surf   99 cyl   8.82000   8.23000   0.47500 % CLAD
+%   pin number  27   type 1   (17,11)
+surf  100 cyl  10.08000   8.23000   0.40960 % FUEL
+surf  101 cyl  10.08000   8.23000   0.41800 % AIR
+surf  102 cyl  10.08000   8.23000   0.47500 % CLAD
+%   pin number  28   type 2   ( 9,12)
+surf  103 cyl   0.00000   6.97000   0.56100 % MOD
+surf  104 cyl   0.00000   6.97000   0.60200 % CLAD
+%   pin number  29   type 1   (10,12)
+surf  105 cyl   1.26000   6.97000   0.40960 % FUEL
+surf  106 cyl   1.26000   6.97000   0.41800 % AIR
+surf  107 cyl   1.26000   6.97000   0.47500 % CLAD
+%   pin number  30   type 1   (11,12)
+surf  108 cyl   2.52000   6.97000   0.40960 % FUEL
+surf  109 cyl   2.52000   6.97000   0.41800 % AIR
+surf  110 cyl   2.52000   6.97000   0.47500 % CLAD
+%   pin number  31   type 2   (12,12)
+surf  111 cyl   3.78000   6.97000   0.56100 % MOD
+surf  112 cyl   3.78000   6.97000   0.60200 % CLAD
+%   pin number  32   type 1   (13,12)
+surf  113 cyl   5.04000   6.97000   0.40960 % FUEL
+surf  114 cyl   5.04000   6.97000   0.41800 % AIR
+surf  115 cyl   5.04000   6.97000   0.47500 % CLAD
+%   pin number  33   type 1   (14,12)
+surf  116 cyl   6.30000   6.97000   0.40960 % FUEL
+surf  117 cyl   6.30000   6.97000   0.41800 % AIR
+surf  118 cyl   6.30000   6.97000   0.47500 % CLAD
+%   pin number  34   type 2   (15,12)
+surf  119 cyl   7.56000   6.97000   0.56100 % MOD
+surf  120 cyl   7.56000   6.97000   0.60200 % CLAD
+%   pin number  35   type 1   (16,12)
+surf  121 cyl   8.82000   6.97000   0.40960 % FUEL
+surf  122 cyl   8.82000   6.97000   0.41800 % AIR
+surf  123 cyl   8.82000   6.97000   0.47500 % CLAD
+%   pin number  36   type 1   (17,12)
+surf  124 cyl  10.08000   6.97000   0.40960 % FUEL
+surf  125 cyl  10.08000   6.97000   0.41800 % AIR
+surf  126 cyl  10.08000   6.97000   0.47500 % CLAD
+%   pin number  37   type 1   ( 9,13)
+surf  127 cyl   0.00000   5.71000   0.40960 % FUEL
+surf  128 cyl   0.00000   5.71000   0.41800 % AIR
+surf  129 cyl   0.00000   5.71000   0.47500 % CLAD
+%   pin number  38   type 1   (10,13)
+surf  130 cyl   1.26000   5.71000   0.40960 % FUEL
+surf  131 cyl   1.26000   5.71000   0.41800 % AIR
+surf  132 cyl   1.26000   5.71000   0.47500 % CLAD
+%   pin number  39   type 1   (11,13)
+surf  133 cyl   2.52000   5.71000   0.40960 % FUEL
+surf  134 cyl   2.52000   5.71000   0.41800 % AIR
+surf  135 cyl   2.52000   5.71000   0.47500 % CLAD
+%   pin number  40   type 1   (12,13)
+surf  136 cyl   3.78000   5.71000   0.40960 % FUEL
+surf  137 cyl   3.78000   5.71000   0.41800 % AIR
+surf  138 cyl   3.78000   5.71000   0.47500 % CLAD
+%   pin number  41   type 1   (13,13)
+surf  139 cyl   5.04000   5.71000   0.40960 % FUEL
+surf  140 cyl   5.04000   5.71000   0.41800 % AIR
+surf  141 cyl   5.04000   5.71000   0.47500 % CLAD
+%   pin number  42   type 1   (14,13)
+surf  142 cyl   6.30000   5.71000   0.40960 % FUEL
+surf  143 cyl   6.30000   5.71000   0.41800 % AIR
+surf  144 cyl   6.30000   5.71000   0.47500 % CLAD
+%   pin number  43   type 1   (15,13)
+surf  145 cyl   7.56000   5.71000   0.40960 % FUEL
+surf  146 cyl   7.56000   5.71000   0.41800 % AIR
+surf  147 cyl   7.56000   5.71000   0.47500 % CLAD
+%   pin number  44   type 1   (16,13)
+surf  148 cyl   8.82000   5.71000   0.40960 % FUEL
+surf  149 cyl   8.82000   5.71000   0.41800 % AIR
+surf  150 cyl   8.82000   5.71000   0.47500 % CLAD
+%   pin number  45   type 1   (17,13)
+surf  151 cyl  10.08000   5.71000   0.40960 % FUEL
+surf  152 cyl  10.08000   5.71000   0.41800 % AIR
+surf  153 cyl  10.08000   5.71000   0.47500 % CLAD
+%   pin number  46   type 1   ( 9,14)
+surf  154 cyl   0.00000   4.45000   0.40960 % FUEL
+surf  155 cyl   0.00000   4.45000   0.41800 % AIR
+surf  156 cyl   0.00000   4.45000   0.47500 % CLAD
+%   pin number  47   type 1   (10,14)
+surf  157 cyl   1.26000   4.45000   0.40960 % FUEL
+surf  158 cyl   1.26000   4.45000   0.41800 % AIR
+surf  159 cyl   1.26000   4.45000   0.47500 % CLAD
+%   pin number  48   type 1   (11,14)
+surf  160 cyl   2.52000   4.45000   0.40960 % FUEL
+surf  161 cyl   2.52000   4.45000   0.41800 % AIR
+surf  162 cyl   2.52000   4.45000   0.47500 % CLAD
+%   pin number  49   type 1   (12,14)
+surf  163 cyl   3.78000   4.45000   0.40960 % FUEL
+surf  164 cyl   3.78000   4.45000   0.41800 % AIR
+surf  165 cyl   3.78000   4.45000   0.47500 % CLAD
+%   pin number  50   type 1   (13,14)
+surf  166 cyl   5.04000   4.45000   0.40960 % FUEL
+surf  167 cyl   5.04000   4.45000   0.41800 % AIR
+surf  168 cyl   5.04000   4.45000   0.47500 % CLAD
+%   pin number  51   type 2   (14,14)
+surf  169 cyl   6.30000   4.45000   0.56100 % MOD
+surf  170 cyl   6.30000   4.45000   0.60200 % CLAD
+%   pin number  52   type 1   (15,14)
+surf  171 cyl   7.56000   4.45000   0.40960 % FUEL
+surf  172 cyl   7.56000   4.45000   0.41800 % AIR
+surf  173 cyl   7.56000   4.45000   0.47500 % CLAD
+%   pin number  53   type 1   (16,14)
+surf  174 cyl   8.82000   4.45000   0.40960 % FUEL
+surf  175 cyl   8.82000   4.45000   0.41800 % AIR
+surf  176 cyl   8.82000   4.45000   0.47500 % CLAD
+%   pin number  54   type 1   (17,14)
+surf  177 cyl  10.08000   4.45000   0.40960 % FUEL
+surf  178 cyl  10.08000   4.45000   0.41800 % AIR
+surf  179 cyl  10.08000   4.45000   0.47500 % CLAD
+%   pin number  55   type 2   ( 9,15)
+surf  180 cyl   0.00000   3.19000   0.56100 % MOD
+surf  181 cyl   0.00000   3.19000   0.60200 % CLAD
+%   pin number  56   type 1   (10,15)
+surf  182 cyl   1.26000   3.19000   0.40960 % FUEL
+surf  183 cyl   1.26000   3.19000   0.41800 % AIR
+surf  184 cyl   1.26000   3.19000   0.47500 % CLAD
+%   pin number  57   type 1   (11,15)
+surf  185 cyl   2.52000   3.19000   0.40960 % FUEL
+surf  186 cyl   2.52000   3.19000   0.41800 % AIR
+surf  187 cyl   2.52000   3.19000   0.47500 % CLAD
+%   pin number  58   type 2   (12,15)
+surf  188 cyl   3.78000   3.19000   0.56100 % MOD
+surf  189 cyl   3.78000   3.19000   0.60200 % CLAD
+%   pin number  59   type 1   (13,15)
+surf  190 cyl   5.04000   3.19000   0.40960 % FUEL
+surf  191 cyl   5.04000   3.19000   0.41800 % AIR
+surf  192 cyl   5.04000   3.19000   0.47500 % CLAD
+%   pin number  60   type 1   (14,15)
+surf  193 cyl   6.30000   3.19000   0.40960 % FUEL
+surf  194 cyl   6.30000   3.19000   0.41800 % AIR
+surf  195 cyl   6.30000   3.19000   0.47500 % CLAD
+%   pin number  61   type 1   (15,15)
+surf  196 cyl   7.56000   3.19000   0.40960 % FUEL
+surf  197 cyl   7.56000   3.19000   0.41800 % AIR
+surf  198 cyl   7.56000   3.19000   0.47500 % CLAD
+%   pin number  62   type 1   (16,15)
+surf  199 cyl   8.82000   3.19000   0.40960 % FUEL
+surf  200 cyl   8.82000   3.19000   0.41800 % AIR
+surf  201 cyl   8.82000   3.19000   0.47500 % CLAD
+%   pin number  63   type 1   (17,15)
+surf  202 cyl  10.08000   3.19000   0.40960 % FUEL
+surf  203 cyl  10.08000   3.19000   0.41800 % AIR
+surf  204 cyl  10.08000   3.19000   0.47500 % CLAD
+%   pin number  64   type 1   ( 9,16)
+surf  205 cyl   0.00000   1.93000   0.40960 % FUEL
+surf  206 cyl   0.00000   1.93000   0.41800 % AIR
+surf  207 cyl   0.00000   1.93000   0.47500 % CLAD
+%   pin number  65   type 1   (10,16)
+surf  208 cyl   1.26000   1.93000   0.40960 % FUEL
+surf  209 cyl   1.26000   1.93000   0.41800 % AIR
+surf  210 cyl   1.26000   1.93000   0.47500 % CLAD
+%   pin number  66   type 1   (11,16)
+surf  211 cyl   2.52000   1.93000   0.40960 % FUEL
+surf  212 cyl   2.52000   1.93000   0.41800 % AIR
+surf  213 cyl   2.52000   1.93000   0.47500 % CLAD
+%   pin number  67   type 1   (12,16)
+surf  214 cyl   3.78000   1.93000   0.40960 % FUEL
+surf  215 cyl   3.78000   1.93000   0.41800 % AIR
+surf  216 cyl   3.78000   1.93000   0.47500 % CLAD
+%   pin number  68   type 1   (13,16)
+surf  217 cyl   5.04000   1.93000   0.40960 % FUEL
+surf  218 cyl   5.04000   1.93000   0.41800 % AIR
+surf  219 cyl   5.04000   1.93000   0.47500 % CLAD
+%   pin number  69   type 1   (14,16)
+surf  220 cyl   6.30000   1.93000   0.40960 % FUEL
+surf  221 cyl   6.30000   1.93000   0.41800 % AIR
+surf  222 cyl   6.30000   1.93000   0.47500 % CLAD
+%   pin number  70   type 1   (15,16)
+surf  223 cyl   7.56000   1.93000   0.40960 % FUEL
+surf  224 cyl   7.56000   1.93000   0.41800 % AIR
+surf  225 cyl   7.56000   1.93000   0.47500 % CLAD
+%   pin number  71   type 1   (16,16)
+surf  226 cyl   8.82000   1.93000   0.40960 % FUEL
+surf  227 cyl   8.82000   1.93000   0.41800 % AIR
+surf  228 cyl   8.82000   1.93000   0.47500 % CLAD
+%   pin number  72   type 1   (17,16)
+surf  229 cyl  10.08000   1.93000   0.40960 % FUEL
+surf  230 cyl  10.08000   1.93000   0.41800 % AIR
+surf  231 cyl  10.08000   1.93000   0.47500 % CLAD
+%   pin number  73   type 1   ( 9,17)
+surf  232 cyl   0.00000   0.67000   0.40960 % FUEL
+surf  233 cyl   0.00000   0.67000   0.41800 % AIR
+surf  234 cyl   0.00000   0.67000   0.47500 % CLAD
+%   pin number  74   type 1   (10,17)
+surf  235 cyl   1.26000   0.67000   0.40960 % FUEL
+surf  236 cyl   1.26000   0.67000   0.41800 % AIR
+surf  237 cyl   1.26000   0.67000   0.47500 % CLAD
+%   pin number  75   type 1   (11,17)
+surf  238 cyl   2.52000   0.67000   0.40960 % FUEL
+surf  239 cyl   2.52000   0.67000   0.41800 % AIR
+surf  240 cyl   2.52000   0.67000   0.47500 % CLAD
+%   pin number  76   type 1   (12,17)
+surf  241 cyl   3.78000   0.67000   0.40960 % FUEL
+surf  242 cyl   3.78000   0.67000   0.41800 % AIR
+surf  243 cyl   3.78000   0.67000   0.47500 % CLAD
+%   pin number  77   type 1   (13,17)
+surf  244 cyl   5.04000   0.67000   0.40960 % FUEL
+surf  245 cyl   5.04000   0.67000   0.41800 % AIR
+surf  246 cyl   5.04000   0.67000   0.47500 % CLAD
+%   pin number  78   type 1   (14,17)
+surf  247 cyl   6.30000   0.67000   0.40960 % FUEL
+surf  248 cyl   6.30000   0.67000   0.41800 % AIR
+surf  249 cyl   6.30000   0.67000   0.47500 % CLAD
+%   pin number  79   type 1   (15,17)
+surf  250 cyl   7.56000   0.67000   0.40960 % FUEL
+surf  251 cyl   7.56000   0.67000   0.41800 % AIR
+surf  252 cyl   7.56000   0.67000   0.47500 % CLAD
+%   pin number  80   type 1   (16,17)
+surf  253 cyl   8.82000   0.67000   0.40960 % FUEL
+surf  254 cyl   8.82000   0.67000   0.41800 % AIR
+surf  255 cyl   8.82000   0.67000   0.47500 % CLAD
+%   pin number  81   type 1   (17,17)
+surf  256 cyl  10.08000   0.67000   0.40960 % FUEL
+surf  257 cyl  10.08000   0.67000   0.41800 % AIR
+surf  258 cyl  10.08000   0.67000   0.47500 % CLAD
+%
+% ------------- Material Cards ------------------
+%
+%  FUEL01
+mat m1 sum tmp  600.00
+         8016.81c  4.576420E-02
+        92234.81c  6.118640E-06
+        92235.81c  7.181320E-04
+        92236.81c  3.298610E-06
+        92238.81c  2.215460E-02
+%  CLAD
+mat m2 sum tmp  600.00
+        24050.81c  3.301210E-06
+        24052.81c  6.366060E-05
+        24053.81c  7.218600E-06
+        24054.81c  1.796860E-06
+        26054.81c  8.683070E-06
+        26056.81c  1.363060E-04
+        26057.81c  3.147890E-06
+        26058.81c  4.189260E-07
+        40090.81c  2.188650E-02
+        40091.81c  4.772920E-03
+        40092.81c  7.295510E-03
+        40094.81c  7.393350E-03
+        40096.81c  1.191100E-03
+        50112.81c  4.680660E-06
+        50114.81c  3.184780E-06
+        50115.81c  1.640640E-06
+        50116.81c  7.016160E-05
+        50117.81c  3.705920E-05
+        50118.81c  1.168720E-04
+        50119.81c  4.145040E-05
+        50120.81c  1.572120E-04
+        50122.81c  2.234170E-05
+        50124.81c  2.793920E-05
+        72174.81c  3.541380E-09
+        72176.81c  1.164230E-07
+        72177.81c  4.116860E-07
+        72178.81c  6.038060E-07
+        72179.81c  3.014600E-07
+        72180.81c  7.764490E-07
+%  COOL
+mat m3 sum tmp  600.00 moder mod1  1001
+         1001.81c  4.962240E-02
+         8016.81c  2.481120E-02
+         5010.81c  1.070700E-05
+         5011.81c  4.309710E-05
+therm mod1 lwtr.16t
+%  MOD
+mat m4 sum tmp  600.00 moder mod1  1001
+         1001.81c  4.962240E-02
+         8016.81c  2.481120E-02
+         5010.81c  1.070700E-05
+         5011.81c  4.309710E-05
+%  AIR
+mat m5 sum tmp  600.00
+         2004.81c  2.687140E-05
+%  SS304
+mat m6 sum tmp  600.00
+         6000.81c  3.208950E-04
+        14028.81c  1.581970E-03
+        14029.81c  8.036530E-05
+        14030.81c  5.303940E-05
+        15031.81c  6.999380E-05
+        24050.81c  7.649150E-04
+        24052.81c  1.475060E-02
+        24053.81c  1.672600E-03
+        24054.81c  4.163460E-04
+        25055.81c  1.753870E-03
+        26054.81c  3.447760E-03
+        26056.81c  5.412250E-02
+        26057.81c  1.249920E-03
+        26058.81c  1.663420E-04
+        28058.81c  5.308540E-03
+        28060.81c  2.044840E-03
+        28061.81c  8.888790E-05
+        28062.81c  2.834130E-04
+        28064.81c  7.217700E-05
+
+% ------------- Tally Cards ---------------------
+
+det t1 n     % pin (10,9)
+  dc 6   dr -6 m1   dv   0.263536
+det t2 n     % pin (11,9)
+  dc 10   dr -6 m1   dv   0.263536
+det t3 n     % pin (13,9)
+  dc 17   dr -6 m1   dv   0.263536
+det t4 n     % pin (14,9)
+  dc 21   dr -6 m1   dv   0.263536
+det t5 n     % pin (16,9)
+  dc 28   dr -6 m1   dv   0.263536
+det t6 n     % pin (17,9)
+  dc 32   dr -6 m1   dv   0.263536
+det t7 n     % pin (9,10)
+  dc 36   dr -6 m1   dv   0.263536
+det t8 n     % pin (10,10)
+  dc 40   dr -6 m1   dv   0.527072
+det t9 n     % pin (11,10)
+  dc 44   dr -6 m1   dv   0.527072
+det t10 n     % pin (12,10)
+  dc 48   dr -6 m1   dv   0.527072
+det t11 n     % pin (13,10)
+  dc 52   dr -6 m1   dv   0.527072
+det t12 n     % pin (14,10)
+  dc 56   dr -6 m1   dv   0.527072
+det t13 n     % pin (15,10)
+  dc 60   dr -6 m1   dv   0.527072
+det t14 n     % pin (16,10)
+  dc 64   dr -6 m1   dv   0.527072
+det t15 n     % pin (17,10)
+  dc 68   dr -6 m1   dv   0.527072
+det t16 n     % pin (9,11)
+  dc 72   dr -6 m1   dv   0.263536
+det t17 n     % pin (10,11)
+  dc 76   dr -6 m1   dv   0.527072
+det t18 n     % pin (11,11)
+  dc 80   dr -6 m1   dv   0.527072
+det t19 n     % pin (12,11)
+  dc 84   dr -6 m1   dv   0.527072
+det t20 n     % pin (13,11)
+  dc 88   dr -6 m1   dv   0.527072
+det t21 n     % pin (14,11)
+  dc 92   dr -6 m1   dv   0.527072
+det t22 n     % pin (15,11)
+  dc 96   dr -6 m1   dv   0.527072
+det t23 n     % pin (16,11)
+  dc 100   dr -6 m1   dv   0.527072
+det t24 n     % pin (17,11)
+  dc 104   dr -6 m1   dv   0.527072
+det t25 n     % pin (10,12)
+  dc 111   dr -6 m1   dv   0.527072
+det t26 n     % pin (11,12)
+  dc 115   dr -6 m1   dv   0.527072
+det t27 n     % pin (13,12)
+  dc 122   dr -6 m1   dv   0.527072
+det t28 n     % pin (14,12)
+  dc 126   dr -6 m1   dv   0.527072
+det t29 n     % pin (16,12)
+  dc 133   dr -6 m1   dv   0.527072
+det t30 n     % pin (17,12)
+  dc 137   dr -6 m1   dv   0.527072
+det t31 n     % pin (9,13)
+  dc 141   dr -6 m1   dv   0.263536
+det t32 n     % pin (10,13)
+  dc 145   dr -6 m1   dv   0.527072
+det t33 n     % pin (11,13)
+  dc 149   dr -6 m1   dv   0.527072
+det t34 n     % pin (12,13)
+  dc 153   dr -6 m1   dv   0.527072
+det t35 n     % pin (13,13)
+  dc 157   dr -6 m1   dv   0.527072
+det t36 n     % pin (14,13)
+  dc 161   dr -6 m1   dv   0.527072
+det t37 n     % pin (15,13)
+  dc 165   dr -6 m1   dv   0.527072
+det t38 n     % pin (16,13)
+  dc 169   dr -6 m1   dv   0.527072
+det t39 n     % pin (17,13)
+  dc 173   dr -6 m1   dv   0.527072
+det t40 n     % pin (9,14)
+  dc 177   dr -6 m1   dv   0.263536
+det t41 n     % pin (10,14)
+  dc 181   dr -6 m1   dv   0.527072
+det t42 n     % pin (11,14)
+  dc 185   dr -6 m1   dv   0.527072
+det t43 n     % pin (12,14)
+  dc 189   dr -6 m1   dv   0.527072
+det t44 n     % pin (13,14)
+  dc 193   dr -6 m1   dv   0.527072
+det t45 n     % pin (15,14)
+  dc 200   dr -6 m1   dv   0.527072
+det t46 n     % pin (16,14)
+  dc 204   dr -6 m1   dv   0.527072
+det t47 n     % pin (17,14)
+  dc 208   dr -6 m1   dv   0.527072
+det t48 n     % pin (10,15)
+  dc 215   dr -6 m1   dv   0.527072
+det t49 n     % pin (11,15)
+  dc 219   dr -6 m1   dv   0.527072
+det t50 n     % pin (13,15)
+  dc 226   dr -6 m1   dv   0.527072
+det t51 n     % pin (14,15)
+  dc 230   dr -6 m1   dv   0.527072
+det t52 n     % pin (15,15)
+  dc 234   dr -6 m1   dv   0.527072
+det t53 n     % pin (16,15)
+  dc 238   dr -6 m1   dv   0.527072
+det t54 n     % pin (17,15)
+  dc 242   dr -6 m1   dv   0.527072
+det t55 n     % pin (9,16)
+  dc 246   dr -6 m1   dv   0.263536
+det t56 n     % pin (10,16)
+  dc 250   dr -6 m1   dv   0.527072
+det t57 n     % pin (11,16)
+  dc 254   dr -6 m1   dv   0.527072
+det t58 n     % pin (12,16)
+  dc 258   dr -6 m1   dv   0.527072
+det t59 n     % pin (13,16)
+  dc 262   dr -6 m1   dv   0.527072
+det t60 n     % pin (14,16)
+  dc 266   dr -6 m1   dv   0.527072
+det t61 n     % pin (15,16)
+  dc 270   dr -6 m1   dv   0.527072
+det t62 n     % pin (16,16)
+  dc 274   dr -6 m1   dv   0.527072
+det t63 n     % pin (17,16)
+  dc 278   dr -6 m1   dv   0.527072
+det t64 n     % pin (9,17)
+  dc 282   dr -6 m1   dv   0.263536
+det t65 n     % pin (10,17)
+  dc 286   dr -6 m1   dv   0.527072
+det t66 n     % pin (11,17)
+  dc 290   dr -6 m1   dv   0.527072
+det t67 n     % pin (12,17)
+  dc 294   dr -6 m1   dv   0.527072
+det t68 n     % pin (13,17)
+  dc 298   dr -6 m1   dv   0.527072
+det t69 n     % pin (14,17)
+  dc 302   dr -6 m1   dv   0.527072
+det t70 n     % pin (15,17)
+  dc 306   dr -6 m1   dv   0.527072
+det t71 n     % pin (16,17)
+  dc 310   dr -6 m1   dv   0.527072
+det t72 n     % pin (17,17)
+  dc 314   dr -6 m1   dv   0.527072
+%
+% ------------- Misc Cards ----------------------
+%
+% kcode: particles active inactive  kguess
+set pop 200000 2000 100   1.181
+%
+% ---- plotting ----
+plot 33 1000 866
+%
+% ---- Reflective BCs ----
+set bc 2
+%
+% ---- Use unresolved resonance data ----
+set ures 1
+%
+% ---- turn off diffusion coefficient calculation using CMM
+set cmm 0
+% I had to turn this off because of an error where flux is zero in one energy group
+%  (which can happen in fast systems)
+% https://ttuki.vtt.fi/serpent/viewtopic.php?f=15&t=3289&p=10282&hilit=much+warning#p10282
+%
+% Turn off some options if need to speed up calculation
+%
+% turn of group constant generation
+% set gcu -1
+%
+% Turn off reproducability for OMP calcs
+set repro 0
+%
+% use private buffers (improves scalability)
+% set shbuf 0
+%
+src   1 sp      0.0010   10.7490    0.0000
+src   2 sp      1.2600   10.7490    0.0000
+src   3 sp      2.5200   10.7490    0.0000
+src   4 sp      3.7800   10.7490    0.0000
+src   5 sp      5.0400   10.7490    0.0000
+src   6 sp      6.3000   10.7490    0.0000
+src   7 sp      7.5600   10.7490    0.0000
+src   8 sp      8.8200   10.7490    0.0000
+src   9 sp     10.0800   10.7490    0.0000
+src  10 sp      0.0010    9.4900    0.0000
+src  11 sp      1.2600    9.4900    0.0000
+src  12 sp      2.5200    9.4900    0.0000
+src  13 sp      3.7800    9.4900    0.0000
+src  14 sp      5.0400    9.4900    0.0000
+src  15 sp      6.3000    9.4900    0.0000
+src  16 sp      7.5600    9.4900    0.0000
+src  17 sp      8.8200    9.4900    0.0000
+src  18 sp     10.0800    9.4900    0.0000
+src  19 sp      0.0010    8.2300    0.0000
+src  20 sp      1.2600    8.2300    0.0000
+src  21 sp      2.5200    8.2300    0.0000
+src  22 sp      3.7800    8.2300    0.0000
+src  23 sp      5.0400    8.2300    0.0000
+src  24 sp      6.3000    8.2300    0.0000
+src  25 sp      7.5600    8.2300    0.0000
+src  26 sp      8.8200    8.2300    0.0000
+src  27 sp     10.0800    8.2300    0.0000
+src  28 sp      0.0010    6.9700    0.0000
+src  29 sp      1.2600    6.9700    0.0000
+src  30 sp      2.5200    6.9700    0.0000
+src  31 sp      3.7800    6.9700    0.0000
+src  32 sp      5.0400    6.9700    0.0000
+src  33 sp      6.3000    6.9700    0.0000
+src  34 sp      7.5600    6.9700    0.0000
+src  35 sp      8.8200    6.9700    0.0000
+src  36 sp     10.0800    6.9700    0.0000
+src  37 sp      0.0010    5.7100    0.0000
+src  38 sp      1.2600    5.7100    0.0000
+src  39 sp      2.5200    5.7100    0.0000
+src  40 sp      3.7800    5.7100    0.0000
+src  41 sp      5.0400    5.7100    0.0000
+src  42 sp      6.3000    5.7100    0.0000
+src  43 sp      7.5600    5.7100    0.0000
+src  44 sp      8.8200    5.7100    0.0000
+src  45 sp     10.0800    5.7100    0.0000
+src  46 sp      0.0010    4.4500    0.0000
+src  47 sp      1.2600    4.4500    0.0000
+src  48 sp      2.5200    4.4500    0.0000
+src  49 sp      3.7800    4.4500    0.0000
+src  50 sp      5.0400    4.4500    0.0000
+src  51 sp      6.3000    4.4500    0.0000
+src  52 sp      7.5600    4.4500    0.0000
+src  53 sp      8.8200    4.4500    0.0000
+src  54 sp     10.0800    4.4500    0.0000
+src  55 sp      0.0010    3.1900    0.0000
+src  56 sp      1.2600    3.1900    0.0000
+src  57 sp      2.5200    3.1900    0.0000
+src  58 sp      3.7800    3.1900    0.0000
+src  59 sp      5.0400    3.1900    0.0000
+src  60 sp      6.3000    3.1900    0.0000
+src  61 sp      7.5600    3.1900    0.0000
+src  62 sp      8.8200    3.1900    0.0000
+src  63 sp     10.0800    3.1900    0.0000
+src  64 sp      0.0010    1.9300    0.0000
+src  65 sp      1.2600    1.9300    0.0000
+src  66 sp      2.5200    1.9300    0.0000
+src  67 sp      3.7800    1.9300    0.0000
+src  68 sp      5.0400    1.9300    0.0000
+src  69 sp      6.3000    1.9300    0.0000
+src  70 sp      7.5600    1.9300    0.0000
+src  71 sp      8.8200    1.9300    0.0000
+src  72 sp     10.0800    1.9300    0.0000
+src  73 sp      0.0010    0.6700    0.0000
+src  74 sp      1.2600    0.6700    0.0000
+src  75 sp      2.5200    0.6700    0.0000
+src  76 sp      3.7800    0.6700    0.0000
+src  77 sp      5.0400    0.6700    0.0000
+src  78 sp      6.3000    0.6700    0.0000
+src  79 sp      7.5600    0.6700    0.0000
+src  80 sp      8.8200    0.6700    0.0000
+src  81 sp     10.0800    0.6700    0.0000
+% eof

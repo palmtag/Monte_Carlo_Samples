@@ -1,0 +1,372 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="800">
+  <title>PWR Assembly</title>
+  <desc>Assembly Description</desc>
+  <rect x="0" y="0" width="800" height="800" fill="royalblue" stroke-width="0" />
+  <clipPath id="cutrod1">
+     <rect x="0" y="0" width="45" height="45" />
+  </clipPath>
+  <circle cx="0" cy="0" r="45" fill="gray"
+     clip-path="url(#cutrod1)" />
+  <circle cx="0" cy="0" r="42" fill="blue"
+     clip-path="url(#cutrod1)" />
+  <clipPath id="cutrod2">
+     <rect x="59" y="0" width="70" height="35" />
+  </clipPath>
+  <circle cx="94" cy="0" r="35" fill="gray"
+     clip-path="url(#cutrod2)" />
+  <circle cx="94" cy="0" r="31" fill="green"
+     clip-path="url(#cutrod2)" />
+  <circle cx="94" cy="0" r="30" fill="yellow"
+     clip-path="url(#cutrod2)" />
+  <clipPath id="cutrod3">
+     <rect x="153" y="0" width="70" height="35" />
+  </clipPath>
+  <circle cx="188" cy="0" r="35" fill="gray"
+     clip-path="url(#cutrod3)" />
+  <circle cx="188" cy="0" r="31" fill="green"
+     clip-path="url(#cutrod3)" />
+  <circle cx="188" cy="0" r="30" fill="yellow"
+     clip-path="url(#cutrod3)" />
+  <clipPath id="cutrod4">
+     <rect x="236" y="0" width="90" height="45" />
+  </clipPath>
+  <circle cx="281" cy="0" r="45" fill="gray"
+     clip-path="url(#cutrod4)" />
+  <circle cx="281" cy="0" r="42" fill="blue"
+     clip-path="url(#cutrod4)" />
+  <circle cx="281" cy="0" r="36" fill="plum"
+     clip-path="url(#cutrod4)" />
+  <circle cx="281" cy="0" r="29" fill="green"
+     clip-path="url(#cutrod4)" />
+  <circle cx="281" cy="0" r="28" fill="tomato"
+     clip-path="url(#cutrod4)" />
+  <clipPath id="cutrod5">
+     <rect x="340" y="0" width="70" height="35" />
+  </clipPath>
+  <circle cx="375" cy="0" r="35" fill="gray"
+     clip-path="url(#cutrod5)" />
+  <circle cx="375" cy="0" r="31" fill="green"
+     clip-path="url(#cutrod5)" />
+  <circle cx="375" cy="0" r="30" fill="yellow"
+     clip-path="url(#cutrod5)" />
+  <clipPath id="cutrod6">
+     <rect x="434" y="0" width="70" height="35" />
+  </clipPath>
+  <circle cx="469" cy="0" r="35" fill="gray"
+     clip-path="url(#cutrod6)" />
+  <circle cx="469" cy="0" r="31" fill="green"
+     clip-path="url(#cutrod6)" />
+  <circle cx="469" cy="0" r="30" fill="yellow"
+     clip-path="url(#cutrod6)" />
+  <clipPath id="cutrod7">
+     <rect x="518" y="0" width="90" height="45" />
+  </clipPath>
+  <circle cx="563" cy="0" r="45" fill="gray"
+     clip-path="url(#cutrod7)" />
+  <circle cx="563" cy="0" r="42" fill="blue"
+     clip-path="url(#cutrod7)" />
+  <circle cx="563" cy="0" r="36" fill="plum"
+     clip-path="url(#cutrod7)" />
+  <circle cx="563" cy="0" r="29" fill="green"
+     clip-path="url(#cutrod7)" />
+  <circle cx="563" cy="0" r="28" fill="tomato"
+     clip-path="url(#cutrod7)" />
+  <clipPath id="cutrod8">
+     <rect x="621" y="0" width="70" height="35" />
+  </clipPath>
+  <circle cx="656" cy="0" r="35" fill="gray"
+     clip-path="url(#cutrod8)" />
+  <circle cx="656" cy="0" r="31" fill="green"
+     clip-path="url(#cutrod8)" />
+  <circle cx="656" cy="0" r="30" fill="yellow"
+     clip-path="url(#cutrod8)" />
+  <clipPath id="cutrod9">
+     <rect x="715" y="0" width="70" height="35" />
+  </clipPath>
+  <circle cx="750" cy="0" r="35" fill="gray"
+     clip-path="url(#cutrod9)" />
+  <circle cx="750" cy="0" r="31" fill="green"
+     clip-path="url(#cutrod9)" />
+  <circle cx="750" cy="0" r="30" fill="yellow"
+     clip-path="url(#cutrod9)" />
+  <clipPath id="cutrod10">
+     <rect x="0" y="59" width="35" height="70" />
+  </clipPath>
+  <circle cx="0" cy="94" r="35" fill="gray"
+     clip-path="url(#cutrod10)" />
+  <circle cx="0" cy="94" r="31" fill="green"
+     clip-path="url(#cutrod10)" />
+  <circle cx="0" cy="94" r="30" fill="yellow"
+     clip-path="url(#cutrod10)" />
+  <circle cx="94" cy="94" r="35" fill="gray" />
+  <circle cx="94" cy="94" r="31" fill="green" />
+  <circle cx="94" cy="94" r="30" fill="yellow" />
+  <circle cx="188" cy="94" r="35" fill="gray" />
+  <circle cx="188" cy="94" r="31" fill="green" />
+  <circle cx="188" cy="94" r="30" fill="yellow" />
+  <circle cx="281" cy="94" r="35" fill="gray" />
+  <circle cx="281" cy="94" r="31" fill="green" />
+  <circle cx="281" cy="94" r="30" fill="yellow" />
+  <circle cx="375" cy="94" r="35" fill="gray" />
+  <circle cx="375" cy="94" r="31" fill="green" />
+  <circle cx="375" cy="94" r="30" fill="yellow" />
+  <circle cx="469" cy="94" r="35" fill="gray" />
+  <circle cx="469" cy="94" r="31" fill="green" />
+  <circle cx="469" cy="94" r="30" fill="yellow" />
+  <circle cx="563" cy="94" r="35" fill="gray" />
+  <circle cx="563" cy="94" r="31" fill="green" />
+  <circle cx="563" cy="94" r="30" fill="yellow" />
+  <circle cx="656" cy="94" r="35" fill="gray" />
+  <circle cx="656" cy="94" r="31" fill="green" />
+  <circle cx="656" cy="94" r="30" fill="yellow" />
+  <circle cx="750" cy="94" r="35" fill="gray" />
+  <circle cx="750" cy="94" r="31" fill="green" />
+  <circle cx="750" cy="94" r="30" fill="yellow" />
+  <clipPath id="cutrod19">
+     <rect x="0" y="153" width="35" height="70" />
+  </clipPath>
+  <circle cx="0" cy="188" r="35" fill="gray"
+     clip-path="url(#cutrod19)" />
+  <circle cx="0" cy="188" r="31" fill="green"
+     clip-path="url(#cutrod19)" />
+  <circle cx="0" cy="188" r="30" fill="yellow"
+     clip-path="url(#cutrod19)" />
+  <circle cx="94" cy="188" r="35" fill="gray" />
+  <circle cx="94" cy="188" r="31" fill="green" />
+  <circle cx="94" cy="188" r="30" fill="yellow" />
+  <circle cx="188" cy="188" r="35" fill="gray" />
+  <circle cx="188" cy="188" r="31" fill="green" />
+  <circle cx="188" cy="188" r="30" fill="yellow" />
+  <circle cx="281" cy="188" r="35" fill="gray" />
+  <circle cx="281" cy="188" r="31" fill="green" />
+  <circle cx="281" cy="188" r="30" fill="yellow" />
+  <circle cx="375" cy="188" r="35" fill="gray" />
+  <circle cx="375" cy="188" r="31" fill="green" />
+  <circle cx="375" cy="188" r="30" fill="yellow" />
+  <circle cx="469" cy="188" r="35" fill="gray" />
+  <circle cx="469" cy="188" r="31" fill="green" />
+  <circle cx="469" cy="188" r="30" fill="yellow" />
+  <circle cx="563" cy="188" r="35" fill="gray" />
+  <circle cx="563" cy="188" r="31" fill="green" />
+  <circle cx="563" cy="188" r="30" fill="yellow" />
+  <circle cx="656" cy="188" r="35" fill="gray" />
+  <circle cx="656" cy="188" r="31" fill="green" />
+  <circle cx="656" cy="188" r="30" fill="yellow" />
+  <circle cx="750" cy="188" r="35" fill="gray" />
+  <circle cx="750" cy="188" r="31" fill="green" />
+  <circle cx="750" cy="188" r="30" fill="yellow" />
+  <clipPath id="cutrod28">
+     <rect x="0" y="236" width="45" height="90" />
+  </clipPath>
+  <circle cx="0" cy="281" r="45" fill="gray"
+     clip-path="url(#cutrod28)" />
+  <circle cx="0" cy="281" r="42" fill="blue"
+     clip-path="url(#cutrod28)" />
+  <circle cx="0" cy="281" r="36" fill="plum"
+     clip-path="url(#cutrod28)" />
+  <circle cx="0" cy="281" r="29" fill="green"
+     clip-path="url(#cutrod28)" />
+  <circle cx="0" cy="281" r="28" fill="tomato"
+     clip-path="url(#cutrod28)" />
+  <circle cx="94" cy="281" r="35" fill="gray" />
+  <circle cx="94" cy="281" r="31" fill="green" />
+  <circle cx="94" cy="281" r="30" fill="yellow" />
+  <circle cx="188" cy="281" r="35" fill="gray" />
+  <circle cx="188" cy="281" r="31" fill="green" />
+  <circle cx="188" cy="281" r="30" fill="yellow" />
+  <circle cx="281" cy="281" r="45" fill="gray" />
+  <circle cx="281" cy="281" r="42" fill="blue" />
+  <circle cx="281" cy="281" r="36" fill="plum" />
+  <circle cx="281" cy="281" r="29" fill="green" />
+  <circle cx="281" cy="281" r="28" fill="tomato" />
+  <circle cx="375" cy="281" r="35" fill="gray" />
+  <circle cx="375" cy="281" r="31" fill="green" />
+  <circle cx="375" cy="281" r="30" fill="yellow" />
+  <circle cx="469" cy="281" r="35" fill="gray" />
+  <circle cx="469" cy="281" r="31" fill="green" />
+  <circle cx="469" cy="281" r="30" fill="yellow" />
+  <circle cx="563" cy="281" r="45" fill="gray" />
+  <circle cx="563" cy="281" r="42" fill="blue" />
+  <circle cx="563" cy="281" r="36" fill="plum" />
+  <circle cx="563" cy="281" r="29" fill="green" />
+  <circle cx="563" cy="281" r="28" fill="tomato" />
+  <circle cx="656" cy="281" r="35" fill="gray" />
+  <circle cx="656" cy="281" r="31" fill="green" />
+  <circle cx="656" cy="281" r="30" fill="yellow" />
+  <circle cx="750" cy="281" r="35" fill="gray" />
+  <circle cx="750" cy="281" r="31" fill="green" />
+  <circle cx="750" cy="281" r="30" fill="yellow" />
+  <clipPath id="cutrod37">
+     <rect x="0" y="340" width="35" height="70" />
+  </clipPath>
+  <circle cx="0" cy="375" r="35" fill="gray"
+     clip-path="url(#cutrod37)" />
+  <circle cx="0" cy="375" r="31" fill="green"
+     clip-path="url(#cutrod37)" />
+  <circle cx="0" cy="375" r="30" fill="yellow"
+     clip-path="url(#cutrod37)" />
+  <circle cx="94" cy="375" r="35" fill="gray" />
+  <circle cx="94" cy="375" r="31" fill="green" />
+  <circle cx="94" cy="375" r="30" fill="yellow" />
+  <circle cx="188" cy="375" r="35" fill="gray" />
+  <circle cx="188" cy="375" r="31" fill="green" />
+  <circle cx="188" cy="375" r="30" fill="yellow" />
+  <circle cx="281" cy="375" r="35" fill="gray" />
+  <circle cx="281" cy="375" r="31" fill="green" />
+  <circle cx="281" cy="375" r="30" fill="yellow" />
+  <circle cx="375" cy="375" r="35" fill="gray" />
+  <circle cx="375" cy="375" r="31" fill="green" />
+  <circle cx="375" cy="375" r="30" fill="yellow" />
+  <circle cx="469" cy="375" r="35" fill="gray" />
+  <circle cx="469" cy="375" r="31" fill="green" />
+  <circle cx="469" cy="375" r="30" fill="yellow" />
+  <circle cx="563" cy="375" r="35" fill="gray" />
+  <circle cx="563" cy="375" r="31" fill="green" />
+  <circle cx="563" cy="375" r="30" fill="yellow" />
+  <circle cx="656" cy="375" r="35" fill="gray" />
+  <circle cx="656" cy="375" r="31" fill="green" />
+  <circle cx="656" cy="375" r="30" fill="yellow" />
+  <circle cx="750" cy="375" r="35" fill="gray" />
+  <circle cx="750" cy="375" r="31" fill="green" />
+  <circle cx="750" cy="375" r="30" fill="yellow" />
+  <clipPath id="cutrod46">
+     <rect x="0" y="434" width="35" height="70" />
+  </clipPath>
+  <circle cx="0" cy="469" r="35" fill="gray"
+     clip-path="url(#cutrod46)" />
+  <circle cx="0" cy="469" r="31" fill="green"
+     clip-path="url(#cutrod46)" />
+  <circle cx="0" cy="469" r="30" fill="yellow"
+     clip-path="url(#cutrod46)" />
+  <circle cx="94" cy="469" r="35" fill="gray" />
+  <circle cx="94" cy="469" r="31" fill="green" />
+  <circle cx="94" cy="469" r="30" fill="yellow" />
+  <circle cx="188" cy="469" r="35" fill="gray" />
+  <circle cx="188" cy="469" r="31" fill="green" />
+  <circle cx="188" cy="469" r="30" fill="yellow" />
+  <circle cx="281" cy="469" r="35" fill="gray" />
+  <circle cx="281" cy="469" r="31" fill="green" />
+  <circle cx="281" cy="469" r="30" fill="yellow" />
+  <circle cx="375" cy="469" r="35" fill="gray" />
+  <circle cx="375" cy="469" r="31" fill="green" />
+  <circle cx="375" cy="469" r="30" fill="yellow" />
+  <circle cx="469" cy="469" r="45" fill="gray" />
+  <circle cx="469" cy="469" r="42" fill="blue" />
+  <circle cx="469" cy="469" r="36" fill="plum" />
+  <circle cx="469" cy="469" r="29" fill="green" />
+  <circle cx="469" cy="469" r="28" fill="tomato" />
+  <circle cx="563" cy="469" r="35" fill="gray" />
+  <circle cx="563" cy="469" r="31" fill="green" />
+  <circle cx="563" cy="469" r="30" fill="yellow" />
+  <circle cx="656" cy="469" r="35" fill="gray" />
+  <circle cx="656" cy="469" r="31" fill="green" />
+  <circle cx="656" cy="469" r="30" fill="yellow" />
+  <circle cx="750" cy="469" r="35" fill="gray" />
+  <circle cx="750" cy="469" r="31" fill="green" />
+  <circle cx="750" cy="469" r="30" fill="yellow" />
+  <clipPath id="cutrod55">
+     <rect x="0" y="518" width="45" height="90" />
+  </clipPath>
+  <circle cx="0" cy="563" r="45" fill="gray"
+     clip-path="url(#cutrod55)" />
+  <circle cx="0" cy="563" r="42" fill="blue"
+     clip-path="url(#cutrod55)" />
+  <circle cx="0" cy="563" r="36" fill="plum"
+     clip-path="url(#cutrod55)" />
+  <circle cx="0" cy="563" r="29" fill="green"
+     clip-path="url(#cutrod55)" />
+  <circle cx="0" cy="563" r="28" fill="tomato"
+     clip-path="url(#cutrod55)" />
+  <circle cx="94" cy="563" r="35" fill="gray" />
+  <circle cx="94" cy="563" r="31" fill="green" />
+  <circle cx="94" cy="563" r="30" fill="yellow" />
+  <circle cx="188" cy="563" r="35" fill="gray" />
+  <circle cx="188" cy="563" r="31" fill="green" />
+  <circle cx="188" cy="563" r="30" fill="yellow" />
+  <circle cx="281" cy="563" r="45" fill="gray" />
+  <circle cx="281" cy="563" r="42" fill="blue" />
+  <circle cx="281" cy="563" r="36" fill="plum" />
+  <circle cx="281" cy="563" r="29" fill="green" />
+  <circle cx="281" cy="563" r="28" fill="tomato" />
+  <circle cx="375" cy="563" r="35" fill="gray" />
+  <circle cx="375" cy="563" r="31" fill="green" />
+  <circle cx="375" cy="563" r="30" fill="yellow" />
+  <circle cx="469" cy="563" r="35" fill="gray" />
+  <circle cx="469" cy="563" r="31" fill="green" />
+  <circle cx="469" cy="563" r="30" fill="yellow" />
+  <circle cx="563" cy="563" r="35" fill="gray" />
+  <circle cx="563" cy="563" r="31" fill="green" />
+  <circle cx="563" cy="563" r="30" fill="yellow" />
+  <circle cx="656" cy="563" r="35" fill="gray" />
+  <circle cx="656" cy="563" r="31" fill="green" />
+  <circle cx="656" cy="563" r="30" fill="yellow" />
+  <circle cx="750" cy="563" r="35" fill="gray" />
+  <circle cx="750" cy="563" r="31" fill="green" />
+  <circle cx="750" cy="563" r="30" fill="yellow" />
+  <clipPath id="cutrod64">
+     <rect x="0" y="621" width="35" height="70" />
+  </clipPath>
+  <circle cx="0" cy="656" r="35" fill="gray"
+     clip-path="url(#cutrod64)" />
+  <circle cx="0" cy="656" r="31" fill="green"
+     clip-path="url(#cutrod64)" />
+  <circle cx="0" cy="656" r="30" fill="yellow"
+     clip-path="url(#cutrod64)" />
+  <circle cx="94" cy="656" r="35" fill="gray" />
+  <circle cx="94" cy="656" r="31" fill="green" />
+  <circle cx="94" cy="656" r="30" fill="yellow" />
+  <circle cx="188" cy="656" r="35" fill="gray" />
+  <circle cx="188" cy="656" r="31" fill="green" />
+  <circle cx="188" cy="656" r="30" fill="yellow" />
+  <circle cx="281" cy="656" r="35" fill="gray" />
+  <circle cx="281" cy="656" r="31" fill="green" />
+  <circle cx="281" cy="656" r="30" fill="yellow" />
+  <circle cx="375" cy="656" r="35" fill="gray" />
+  <circle cx="375" cy="656" r="31" fill="green" />
+  <circle cx="375" cy="656" r="30" fill="yellow" />
+  <circle cx="469" cy="656" r="35" fill="gray" />
+  <circle cx="469" cy="656" r="31" fill="green" />
+  <circle cx="469" cy="656" r="30" fill="yellow" />
+  <circle cx="563" cy="656" r="35" fill="gray" />
+  <circle cx="563" cy="656" r="31" fill="green" />
+  <circle cx="563" cy="656" r="30" fill="yellow" />
+  <circle cx="656" cy="656" r="35" fill="gray" />
+  <circle cx="656" cy="656" r="31" fill="green" />
+  <circle cx="656" cy="656" r="30" fill="yellow" />
+  <circle cx="750" cy="656" r="35" fill="gray" />
+  <circle cx="750" cy="656" r="31" fill="green" />
+  <circle cx="750" cy="656" r="30" fill="yellow" />
+  <clipPath id="cutrod73">
+     <rect x="0" y="715" width="35" height="70" />
+  </clipPath>
+  <circle cx="0" cy="750" r="35" fill="gray"
+     clip-path="url(#cutrod73)" />
+  <circle cx="0" cy="750" r="31" fill="green"
+     clip-path="url(#cutrod73)" />
+  <circle cx="0" cy="750" r="30" fill="yellow"
+     clip-path="url(#cutrod73)" />
+  <circle cx="94" cy="750" r="35" fill="gray" />
+  <circle cx="94" cy="750" r="31" fill="green" />
+  <circle cx="94" cy="750" r="30" fill="yellow" />
+  <circle cx="188" cy="750" r="35" fill="gray" />
+  <circle cx="188" cy="750" r="31" fill="green" />
+  <circle cx="188" cy="750" r="30" fill="yellow" />
+  <circle cx="281" cy="750" r="35" fill="gray" />
+  <circle cx="281" cy="750" r="31" fill="green" />
+  <circle cx="281" cy="750" r="30" fill="yellow" />
+  <circle cx="375" cy="750" r="35" fill="gray" />
+  <circle cx="375" cy="750" r="31" fill="green" />
+  <circle cx="375" cy="750" r="30" fill="yellow" />
+  <circle cx="469" cy="750" r="35" fill="gray" />
+  <circle cx="469" cy="750" r="31" fill="green" />
+  <circle cx="469" cy="750" r="30" fill="yellow" />
+  <circle cx="563" cy="750" r="35" fill="gray" />
+  <circle cx="563" cy="750" r="31" fill="green" />
+  <circle cx="563" cy="750" r="30" fill="yellow" />
+  <circle cx="656" cy="750" r="35" fill="gray" />
+  <circle cx="656" cy="750" r="31" fill="green" />
+  <circle cx="656" cy="750" r="30" fill="yellow" />
+  <circle cx="750" cy="750" r="35" fill="gray" />
+  <circle cx="750" cy="750" r="31" fill="green" />
+  <circle cx="750" cy="750" r="30" fill="yellow" />
+</svg>
