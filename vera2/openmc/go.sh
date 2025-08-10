@@ -18,7 +18,7 @@ for CASE in $CLIST; do
   echo " Running case $CASE"
   echo "========================================="
   rm -f *.xml plot_1.png summary.h5 tallies.out
-  python3 $CASE
+  python3 $CASE.py
   if [ -f plot_1.png ]; then
      mv plot_1.png $CASE.png
   fi
