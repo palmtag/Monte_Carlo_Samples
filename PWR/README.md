@@ -12,4 +12,6 @@ The first is that that the automation to create these files is set up that way.
 I've found that the lattices have trouble with more complicated geometry,
 like inter-assembly gaps and BWR control blades and it is easier to model the pins explicitly.
 
+## Watts Bar Geometry
+
 ![plot](./misc/p9.svg)
